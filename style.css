@@ -1,0 +1,81 @@
+ body{
+    background-color: white;
+ }
+header{
+    background-color: #f5f7fa;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.sec-t{
+    background-color: #f5f7fa;
+}
+/* .stat-icon{
+  width:40px;
+  flex-shrink:0;
+}
+
+.stat-box{
+  width:100%;
+  flex-wrap:wrap;
+}
+
+body{
+  overflow-x:hidden;
+} */
+ .img-1{
+    
+    position: absolute;
+    bottom: -30px;
+ }
+ ul{
+    list-style: none;
+ }
+ li,a{
+    text-decoration: none;
+ }
+  #owl-demo .item img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+/* for smooth caosul */
+#owl-demo .item{
+padding:60px 0;
+}
+
+#owl-demo h1{
+font-size:48px;
+}
+
+#owl-demo p{
+font-size:18px;
+}
+
+.owl-theme .owl-controls .owl-page span{
+background:#198754;
+width:12px;
+height:12px;
+}
+
+.owl-theme .owl-controls .owl-page.active span{
+width:30px;
+border-radius:10px;
+}
+ /* foe extra smoth */
+ .Hero{
+animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
